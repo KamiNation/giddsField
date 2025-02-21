@@ -24,7 +24,7 @@ const Services = () => {
 
             <section id="service-us" className='flex min-h-screen'>
 
-                <div className='flex  flex-1 p-12 items-center justify-center sm:p-2 sm:flex-col md:flex-col lg:flex-col xl:flex-col md:p-8 lg:p-8 xl:p-8'>
+                <div className='flex  flex-1 p-12 items-center justify-center sm:p-2 sm:flex-col md:flex-col lg:flex-col xl:flex-col-reverse md:p-8 lg:p-8 xl:p-8'>
                     <div className="flex flex-1">
                         <div className='flex flex-1 border border-solid rounded-xl'>
                             <Image src="/contContainer.jpeg" className=" bg-cover bg-no-repeat w-[100%] h-[100%] border border-solid rounded-xl" alt='about-freigth' width="800" height="800" />

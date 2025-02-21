@@ -10,7 +10,7 @@ const PortfolioContactMap: React.FC<contactMap> = ({ whatsapp }) => {
 
 
     return (
-        <div className='flex sm:flex-col'>
+        <div className='flex sm:flex-col items-center justify-around'>
             {
                 portfolioContactMap.map((contact: contactmap, index) => (
                     <PortfolioContactCard key={index}
@@ -22,7 +22,7 @@ const PortfolioContactMap: React.FC<contactMap> = ({ whatsapp }) => {
                         child1={contact.child1}
                         child2={contact.child2}
                         child3={contact.child3}
-                        />
+                    />
                 ))
             }
         </div>
