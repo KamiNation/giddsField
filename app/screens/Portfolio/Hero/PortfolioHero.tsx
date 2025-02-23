@@ -18,7 +18,7 @@ const PortfolioHero = () => {
                 <div className=' flex items-center justify-center '>
 
                     <div className="text-4xl font-bold flex-1 items-start sm:text-2xl  ">
-                        We’re GiddsField Logistics, Your <br /> Cargo handling Experts <br />  based in Ikorodu Lagos
+                        We’re Logistics, Your <br /> Cargo handling Experts <br />  based in Location here
                     </div>
 
                 </div>

@@ -72,7 +72,7 @@ const Contact = () => {
                 bg-[url('/lagosAddress.jpg')] 
                 bg-cover bg-center bg-no-repeat 
                 flex flex-1 text-white font-bold border border-solid rounded-lg">
-                    <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base"> Suite A2, Sahco Export Shed/Warehouse, Nahco  </p>
+                    <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base"> Suite  </p>
                 </div>
 
                 <div
@@ -83,7 +83,7 @@ const Contact = () => {
                 bg-cover bg-center bg-no-repeat 
                 flex flex-1 text-white font-bold border border-solid rounded-lg">
                     <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base">
-                        Unit 162, 1885-1895
+                        Unit 
                     </p>
                 </div>
 

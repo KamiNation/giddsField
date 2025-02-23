@@ -1,8 +1,8 @@
 "use client"
 
 
-import React, { useState } from 'react'
-import { contactmap, experiencemap } from '@/app/utils/global'
+import React from 'react'
+import { experiencemap } from '@/app/utils/global'
 
 
 

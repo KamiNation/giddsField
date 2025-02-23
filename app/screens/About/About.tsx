@@ -35,7 +35,7 @@ const About = () => {
                         </div>
 
                         <div className="text-gray-800">
-                            GiddsField Logistics understand the value of time and its value to our customers in our fast growing global economy. Our professional and skilled staff will look after your shipment overseeing every detail at every stage of the shipment to ensure safe and timely delivery of your cargo.
+                            Logistics understand the value of time and its value to our customers in our fast growing global economy. Our professional and skilled staff will look after your shipment overseeing every detail at every stage of the shipment to ensure safe and timely delivery of your cargo.
                         </div>
 
                         <div className="text-gray-800">
@@ -44,7 +44,7 @@ const About = () => {
 
                         <div className="flex flex-col sm:justify-center sm:items-center">
                             <div className="text-2xl text-blue-800 font-bold">
-                                Mr. Gideon
+                                Title
                             </div>
 
                             <div className='text-gray-600 text-md'>
