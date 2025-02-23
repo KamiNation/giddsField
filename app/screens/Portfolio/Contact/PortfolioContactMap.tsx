@@ -10,7 +10,7 @@ const PortfolioContactMap: React.FC<contactMap> = ({ whatsapp }) => {
 
 
     return (
-        <div className='flex sm:flex-col items-center justify-around'>
+        <div className='flex sm:flex-col md:flex-col lg:flex-col xl:items-center xl:justify-around 2xl:items-center 2xl:justify-around xl:p-2'>
             {
                 portfolioContactMap.map((contact: contactmap, index) => (
                     <PortfolioContactCard key={index}

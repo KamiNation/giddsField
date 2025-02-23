@@ -27,6 +27,7 @@ const config: Config = withMT({
         md: { min: "481px", max: "650px" },
         lg: { min: "651px", max: "768px" },
         xl: { min: "769px", max: "1023px" },
+        "xl-flex": { min: "800px", max: "1023px" },
         "2xl": { min: "1024px" },
       },
     },

@@ -3,7 +3,7 @@ import Link from "next/link" // Importing Link component for navigation
 import React, { FC, useEffect, useState } from "react" // Importing React, functional component type, and hooks
 
 import NavItems, { NavSocial } from "../components/NavItems" // Importing navigation items component
-import ThemeSwitcher from "../utils/ThemeSwitcher" // Importing theme switcher component
+// import ThemeSwitcher from "../utils/ThemeSwitcher" // Importing theme switcher component
 // Created component folder
 // First file created and imported into page component
 
@@ -64,13 +64,13 @@ const Header = () => {
 
                         <div>
                             <Link href={"/"} // Logo link
-                                className={"text-2xl font-bold sm:hidden md:hidden lg:hidden xl:hidden hover:text-red-900  text-blue-900 "}
+                                className={"text-2xl font-bold sm:hidden md:hidden lg:hidden xl:hidden xl:text-base hover:text-red-900  text-blue-900 "}
                             >
                                 GIDDSFIELD LOGISTICS
                             </Link>
 
                             <Link href={"/"} // Logo link
-                                className={"text-[20px] font-Poppins font-[500] text-blue-900  2xl:hidden  hover:text-red-900 "}
+                                className={"text-[20px] font-Poppins font-[500] text-blue-900  2xl:hidden xl:text-xs hover:text-red-900 "}
                             >
                                 GIDDSFIELD LOGISTICS
 

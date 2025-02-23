@@ -13,7 +13,7 @@ const PortfolioAbout = () => {
     }
 
     return (
-        <section id='about-me' className='w-full  xl:h-[20rem] mt-16 text-black relative  gap-8'>
+        <section id='about-me' className='w-full  xl:min-h-0 py-8 text-black relative xl:px-8  gap-8'>
 
             <h1 className="text-center font-bold text-black text-5xl sm:text-lg md:text-lg lg:text-xl xl:text-2xl ">What we do</h1>
 

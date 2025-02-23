@@ -14,10 +14,10 @@ const PortfolioProject = () => {
 
 
 
-        <section id="project" className="relative h-full w-full  flex flex-col">
+        <section id="project" className="relative h-full w-full xl:min-h-0 flex flex-col 2xl:pt-4">
             <div className="">
                 <div className='px-8 pb-8'>
-                    <div className="p-4 border border-solid border-black rounded-2xl bg-[url('/contactUs.jpg')] bg-cover flex justify-center items-center text-white flex-col gap-4 bg-red-900">
+                    <div className="p-4 border border-solid border-black rounded-2xl bg-[url('/contactUs.jpg')] bg-cover flex justify-center items-center xl:h-[20rem] text-white flex-col gap-4 ">
                         <div className='text-4xl font-bold sm:text-lg md:text-xl'>
                             Do you have any Question?
                         </div>

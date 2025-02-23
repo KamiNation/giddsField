@@ -14,22 +14,22 @@ const About = () => {
 
             <section id="about-hero" className="
         relative w-full 
-        h-screen 
+        h-screen xl:h-[35rem] 2xl:h-[35rem] lg:h-[35rem]
         bg-[url('/aboutFreight.jpg')] 
         bg-cover bg-center bg-no-repeat 
         flex
         ">
             </section>
 
-            <section id="about-us" className='flex min-h-screen '>
+            <section id="about-us" className='flex min-h-screen 2xl:min-h-0 xl:min-h-0 lg:min-h-0'>
 
                 <div className='flex  flex-1 p-12 items-center justify-center sm:flex-col md:flex-col md:p-8 sm:p-4 xl:p-8'>
                     <div className="flex flex-1">
                         <div className='flex flex-1 border border-solid rounded-xl'>
-                            <Image src="/aboutPlane.jpg" className=" bg-cover bg-no-repeat w-[100%] h-[100%] border border-solid rounded-xl" alt='about-freigth' width="800" height="800" />
+                            <Image src="/aboutPlane.jpg" className=" bg-cover bg-no-repeat w-[100%] h-[100%] border border-solid rounded-xl " alt='about-freigth' width="800" height="800" />
                         </div>
                     </div>
-                    <div className="flex flex-col gap-4 flex-1 p-8 text-black text-justify sm:p-0 md:p-4 xl:p-3">
+                    <div className="flex flex-col gap-4 flex-1 p-8 text-black text-justify sm:p-0 md:p-4 xl:p-3 xl:gap-8  2xl:gap-[4rem] ">
                         <div className="font-bold text-3xl text-blue-900 sm:mt-4">
                             About Us
                         </div>

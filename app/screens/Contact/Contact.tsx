@@ -64,7 +64,7 @@ const Contact = () => {
                 bg-cover bg-center bg-no-repeat 
                 flex text-white font-bold"></section>
 
-            <section id="contact-image" className='w-full h-96 flex gap-6 p-16 sm:flex-col md:flex-col sm:p-4 md:p-8 lg:p-8 xl:p-8'>
+            <section id="contact-image" className='w-full h-96 flex gap-6 p-16 sm:flex-col md:flex-col lg:flex-col sm:p-4 md:p-8 lg:p-8 xl:p-8'>
                 <div
                     ref={leftImageRef}
                     className="
@@ -90,14 +90,14 @@ const Contact = () => {
             </section>
 
 
-            <section id="contact-list" className='w-full min-h-screen pt-8 lg:pt-8'>
+            <section id="contact-list" className='w-full min-h-screen xl:min-h-0 2xl:min-h-0 pt-8 lg:pt-8'>
                 <ContactMap />
             </section>
 
-            <section id="contact-map" className='w-full  overflow-hidden pt-4 lg:pt-8 sm:mt-[2rem] sm:mb-4 min-h-screen'>
+            <section id="contact-map" className='w-full  overflow-hidden pt-4 lg:pt-8 sm:mt-[2rem] sm:mb-4 xl:min-h-0 2xl:min-h-0 2xl:py-8 min-h-screen xl:py-8'>
                 <div className="text-blue-900 text-2xl text-center font-bold pb-4 px-12" ref={boxRef}>Contact Us</div>
-                <div className='flex  px-12 gap-8 sm:px-4 lg:px-8 xl:px-8 lg:pb-8 sm:flex-col-reverse md:flex-col-reverse'>
-                <div className='flex flex-1 sm:flex-1 sm:mb-4'>
+                <div className='flex  px-12 gap-8 sm:px-4 lg:px-8 xl:px-8 lg:pb-8 md:px-8 sm:flex-col-reverse md:flex-col-reverse lg:flex-col-reverse'>
+                <div className='flex flex-1 sm:flex-1 sm:mb-4 md:pb-4'>
                         <OpenLayersMap />
                     </div>
 

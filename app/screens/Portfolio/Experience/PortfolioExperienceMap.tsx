@@ -7,7 +7,7 @@ import PortfolioExperienceCard from './PortfolioExperienceCard'
 const PortfolioExperienceMap = () => {
     return (
         <>
-            <div className='flex-1 flex flex-col  gap-8'>
+            <div className='flex-1 flex flex-col  gap-8 2xl:gap-16' >
                 {
                     portfolioExperienceSW.map((SW: experiencemap, index) => (
                         <PortfolioExperienceCard key={index}

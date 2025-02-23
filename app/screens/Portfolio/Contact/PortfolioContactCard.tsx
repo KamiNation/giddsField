@@ -11,7 +11,7 @@ const PortfolioContactCard: React.FC<contactmap> = ({ desc, title, parent, child
 
 
     return (
-        <div className="flex  p-4 m-4  ">
+        <div className="flex  p-4 xl:p-0 ">
             {/* <div>
                 <div className='text-blue-900 font-bold text-3xl mb-2 sm:text-base md:text-lg  lg:text-xl xl:text-2xl'>{title}</div>
                 <div className="text-white sm:text-sm">{addr}</div>
