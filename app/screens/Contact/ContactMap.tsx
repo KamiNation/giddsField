@@ -18,6 +18,7 @@ const ContactMap = () => {
                                 desc={project.desc}
                                 icon={project.icon}
                                 title={project.title}
+                                id={project.id}
                             />
                         ))
                     }

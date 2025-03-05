@@ -5,6 +5,7 @@ import Image from 'next/image'
 import React from 'react'
 // import { BiSolidArrowFromTop } from 'react-icons/bi'
 import PortfolioMap from './PortfolioAboutMap'
+import Link from 'next/link'
 
 const PortfolioAbout = () => {
 
@@ -25,8 +26,8 @@ const PortfolioAbout = () => {
                 <div className='flex text-center p-4 border   border-solid rounded-xl 
                     bg-blue-600 text-white hover:bg-red-600  max-w-[130px] max-h-[86px]'>
 
-                    <div className='flex items-center justify-center '>
-                        Learn More</div>
+                    <Link href={"/about"} className='flex items-center justify-center '>
+                        Learn More</Link>
                 </div>
             </div>
 

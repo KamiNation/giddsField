@@ -20,22 +20,22 @@ export interface aboutmap {
 
 export const wareHouseMap: experiencemap[] = [
     {
-        title: "PACKING"
+        title: "CLEARANCE AND DELIVERY"
     },
     {
-        title: "SCREENING"
+        title: "WAREHOUSING "
     },
     {
-        title: "METAL DETECTION"
+        title: "SEA FREIGHT (DTP | DTD)"
     },
     {
-        title: "AIRCRAFT PALLET BUILDING"
+        title: "AIR FREIGHT (DTP | DTD)"
     },
     {
-        title: "FROZEN BLAST"
+        title: "SHOP AND SHIP DELIVERY"
     },
     {
-        title: "RELABLING"
+        title: "HAULAGE DELIVERY"
     },
 ]
 
@@ -43,15 +43,15 @@ export const wareHouseMap: experiencemap[] = [
 
 export const portfolioAboutMap: aboutmap[] = [
     {
-        img: "/af.jpg",
+        img: "/afff.jpg",
         title: "Air Freight"
     },
     {
-        img: "/of.jpg",
+        img: "/offf.jpg",
         title: "Ocean Freight"
     },
     {
-        img: "/candf.jpg",
+        img: "/nacho7.jpg",
         title: "Clearing & Forwarding"
     }
 ]
@@ -59,6 +59,7 @@ export const portfolioAboutMap: aboutmap[] = [
 
 
 export interface experiencemap {
+    id?: number,
     title?: string
     desc?: string
     icon?: ReactElement<any>
@@ -68,11 +69,11 @@ export interface experiencemap {
 export const portfolioExperienceSW: experiencemap[] = [
     {
         title: "Our Mission",
-        desc: "To be the clearing and forwarding company of choice in east Africa as well as provide a complete package of logistics services though our global network of partners."
+        desc: "Our mission is to become the premier logistics in Africa, delivering exceptional cargo handling and transportation solutions. By leveraging a vast global network of reliable partners, we aim to offer comprehensive, seamless services that streamline supply chains, ensure on-time delivery, and meet the unique needs of our clients, both regionally and internationally."
     },
     {
         title: "Our Vision",
-        desc: "To offer a single-source solution to and from any point worldwide keeping our clients informed of their shipment status at every step.",
+        desc: "To be the go-to provider for integrated logistics solutions, connecting every corner of the globe. We strive to offer our clients seamless, end-to-end shipment tracking and exceptional service, ensuring our clients are always informed and confident in the timely delivery of their goods.",
     },
 ]
 
@@ -81,24 +82,27 @@ export const missionVision: experiencemap[] = [
     {
         icon: <AnimatedSettingsIcon />,
         title: "Our Mission",
-        desc: "To be the clearing and forwarding company of choice in east Africa as well as provide a complete package of logistics services though our global network of partners.",
+        desc: "Our mission is to become the premier logistics in Africa, delivering exceptional cargo handling and transportation solutions. By leveraging a vast global network of reliable partners, we aim to offer comprehensive, seamless services that streamline supply chains, ensure on-time delivery, and meet the unique needs of our clients, both regionally and internationally.",
     },
     {
         icon: <AnimatedBulb />,
         title: "Our Vision",
-        desc: "To offer a single-source solution to and from any point worldwide keeping our clients informed of their shipment status at every step.",
+        desc: "To be the go-to provider for integrated logistics solutions, connecting every corner of the globe. We strive to offer our clients seamless, end-to-end shipment tracking and exceptional service, ensuring our clients are always informed and confident in the timely delivery of their goods.",
     },
 ]
 
-const location1 = "Suite A2, Sahco Export Shed/Warehouse, Nahco";
-const location2 = "Cargo & Pilgrimage, Hajj Camp, MMI, Ikeja";
+const location1 = `Suite A2, Sahco Export Shed/Warehouse, Nahco.`;
+const location2 = "Cargo & Pilgrimage, Hajj Camp, MMI, Ikeja.";
 
 const del1 = "Inter-State Delivery: 3-5 working days.";
 const del2 = "Int'l Delivery: 6-8 working days"
 
 
-const num1 = "+23470035751981"
+const num1 = "+2347035751981"
 const num2 = "+2348126693296"
+
+const email1 = "giddsfield@gmail.com"
+const email2 = "geniusgidds@gmail.com"
 
 
 
@@ -106,22 +110,26 @@ export const contactUs: experiencemap[] = [
     {
         icon: <AnimatedAddressIcon />,
         title: "Physical Address​",
-        desc: `${location1} \n ${location2}`
+        desc: `${location1} \n \n ${location2}`,
+        id: 1,
     },
     {
         icon: <AnimatedTimeIcon />,
         title: "Work Hours",
-        desc: `${del1} \n ${del2}`,
+        desc: `${del1} \n \n ${del2}`,
+        id:2,
     },
     {
         icon: <AnimatedEmailIcon />,
         title: "Email Address",
-        desc: "contactUs@gmail.com",
+        desc: `${email1} \n \n ${email2}` ,
+        id: 3,
     },
     {
         icon: <AnimatedPhoneIcon />,
         title: "Phone Numbers",
-        desc: `${num1} \n ${num2}`,
+        desc: `${num1} \n \n \n ${num2}`,
+        id:4,
     },
 ]
 

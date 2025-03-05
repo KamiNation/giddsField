@@ -107,19 +107,19 @@ export default NavItems
 export const navSocialData = [
     {
         icon: <BsTelephone />,
-        url: "+23470035751981",
+        url: "tel:+2347035751981",
     },
     {
         icon: <FaWhatsapp />,
-        url: "https://wa.link/x9xebz",
+        url: "https://wa.link/5usj9h",
     },
     {
         icon: <MdOutlineMail />,
-        url: "@gmail.com",
+        url: "mailto://giddsfield@gmail.com",
     },
     {
         icon: <IoLogoFacebook />,
-        url: "facebook.com",
+        url: "https://facebook.com",
     },
 ];
 
