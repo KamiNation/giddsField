@@ -66,13 +66,13 @@ const Header = () => {
                             <Link href={"/"} // Logo link
                                 className={"text-2xl font-bold sm:hidden md:hidden lg:hidden xl:hidden xl:text-base hover:text-red-900  text-blue-900 "}
                             >
-                                LOGISTICS
+                               GIDDSFIELD CARGO  LOGISTICS
                             </Link>
 
                             <Link href={"/"} // Logo link
                                 className={"text-[20px] font-Poppins font-[500] text-blue-900  2xl:hidden xl:text-xs hover:text-red-900 "}
                             >
-                                LOGISTICS
+                                GIDDSFIELD  CARGO LOGISTICS
 
                             </Link>
                         </div>

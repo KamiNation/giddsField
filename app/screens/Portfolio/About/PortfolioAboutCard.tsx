@@ -37,8 +37,8 @@ const PortfolioAboutCard: React.FC<aboutmap> = ({ img, title }) => {
                 <Image
                     src={img}
                     alt='frieght'
-                    width={700}
-                    height={700}
+                    width={900}
+                    height={900}
                     className='flex-1 border rounded-t-3xl'
                 />
             </div>

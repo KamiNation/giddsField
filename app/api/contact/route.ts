@@ -5,7 +5,7 @@ export async function POST(req: Request) {
 
     try {
         const { name, email, message, subject } = await req.json();
-
+        
         if (!name || !email || !message || !subject) {
             return NextResponse.json({ error: "All fields are required" }, { status: 400 });
         }
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
-            to: "adedamolacopy@gmail.com",
+            to: "geniusgidds@gmail.com",
             subject: `${subject} `,
             text: `New Contact Form Submission from \n Name: ${name} \n Email: ${email}\n Message: ${message}`,
         };

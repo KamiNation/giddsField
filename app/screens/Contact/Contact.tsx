@@ -69,10 +69,10 @@ const Contact = () => {
                     ref={leftImageRef}
                     className="
                 relative w-full h-80
-                bg-[url('/lagosAddress.jpg')] 
+                bg-[url('/nahco5.jpg')] 
                 bg-cover bg-center bg-no-repeat 
                 flex flex-1 text-white font-bold border border-solid rounded-lg">
-                    <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base"> Suite  </p>
+                    {/* <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base"> Suite  </p> */}
                 </div>
 
                 <div
@@ -82,9 +82,9 @@ const Contact = () => {
                 bg-[url('/canadaAddress.jpg')] 
                 bg-cover bg-center bg-no-repeat 
                 flex flex-1 text-white font-bold border border-solid rounded-lg">
-                    <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base">
+                    {/* <p className="text-2xl font-bold flex items-center justify-center pl-2 sm:text-base text-blue-900 ">
                         Unit 
-                    </p>
+                    </p> */}
                 </div>
 
             </section>

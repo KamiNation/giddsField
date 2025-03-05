@@ -22,17 +22,16 @@ const PortfolioExperience = () => {
                     <div className="text-4xl font-bold text-black">Core Values </div>
 
                     <div className="text-justify text-gray-800">
-                        We understand the value of time and its value to our customers in our fast growing global economy. Our professional and skilled staff will look after your shipment overseeing every detail at every stage of the shipment to ensure safe and timely delivery of your cargo. That includes:
+                    We recognize the critical importance of time in today’s fast-paced global economy, and how essential it is to our customers. Our experienced and committed team ensures every detail of your shipment is expertly managed at each stage, guaranteeing both the safety and timely delivery of your cargo. This includes:
                     </div>
 
                     <div>
                         <ul className="text-justify text-gray-800 list-disc pl-6 gap-2 flex flex-col">
-                            <li> Pickup of cargo from your Door step </li>
-                            <li> Processing of all required administration work and documentation</li>
-                            <li>Flight booking to match your requirements </li>
-                            <li>
-                                Handling of shipment before and after the flight in accordingly with rules and regulations
-                            </li>
+                        <li>We will pick up your cargo directly from your doorstep for convenience.</li>
+    <li>Our team will handle all necessary documentation and administrative tasks efficiently.</li>
+    <li>We will book flights that are customized to meet your specific shipping requirements.</li>
+    <li>We ensure the shipment is properly managed before and after the flight, fully adhering to regulations.</li>
+
                         </ul>
                     </div>
                     <div className='flex flex-col bg-#f9fafc'>

@@ -9,7 +9,7 @@ const PortfolioContact: React.FC<contactMap> = ({ whatsapp }) => {
 
     return (
         <section id='contact' className='bg-blue-900 flex flex-col '>
-            <div className=" ">
+            <div >
                 <PortfolioContactMap />
             </div>
             <div className='flex items-center justify-center gap-2 lg:flex-col pb-4'>

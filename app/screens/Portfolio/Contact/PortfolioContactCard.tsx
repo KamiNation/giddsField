@@ -13,7 +13,7 @@ const PortfolioContactCard: React.FC<contactmap> = ({ desc, title, parent, child
     return (
         <div className="flex  p-4 xl:p-0 ">
             <div className=''>
-                <div className='text-red-500 font-bold text-3xl mb-2 sm:text-base md:text-lg lg:text-xl xl:text-2xl'>{parent}</div>
+                <div className='text-red-900 font-bold text-3xl mb-2 sm:text-base md:text-lg lg:text-xl xl:text-2xl'>{parent}</div>
                 <div className="text-white text-center sm:text-sm sm:text-justify md:text-base md:text-justify lg:text-lg lg:text-justify xl:text-justify">{child}</div>
                 <div className="text-white text-center sm:text-sm sm:text-justify md:text-base md:text-justify lg:text-lg lg:text-justify xl:text-justify">{child1}</div>
                 <div className="text-white text-center sm:text-sm sm:text-justify md:text-base md:text-justify lg:text-lg lg:text-justify xl:text-justify">{child2}</div>

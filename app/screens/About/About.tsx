@@ -26,7 +26,7 @@ const About = () => {
                 <div className='flex  flex-1 p-12 items-center justify-center sm:flex-col md:flex-col md:p-8 sm:p-4 xl:p-8'>
                     <div className="flex flex-1">
                         <div className='flex flex-1 border border-solid rounded-xl'>
-                            <Image src="/aboutPlane.jpg" className=" bg-cover bg-no-repeat w-[100%] h-[100%] border border-solid rounded-xl " alt='about-freigth' width="800" height="800" />
+                            <Image src="/cargo-airplane-new.jpg" className=" bg-cover bg-no-repeat w-[100%] h-[100%] border border-solid rounded-xl " alt='about-freigth' width="800" height="800" />
                         </div>
                     </div>
                     <div className="flex flex-col gap-4 flex-1 p-8 text-black text-justify sm:p-0 md:p-4 xl:p-3 xl:gap-8  2xl:gap-[4rem] ">
@@ -35,23 +35,14 @@ const About = () => {
                         </div>
 
                         <div className="text-gray-800">
-                            Logistics understand the value of time and its value to our customers in our fast growing global economy. Our professional and skilled staff will look after your shipment overseeing every detail at every stage of the shipment to ensure safe and timely delivery of your cargo.
+                        Giddsfield ltd (Cargo export-import logistics services) facilitates the processing, examination, documentation, and packaging of food items, personal effects, and general goods. We ship via airlines or/and sea shipping lines, have these goods delivered to the recipient at their doorstep in the UK, USA, Canada, Europe, the middle east countries and African countries.
                         </div>
-
+<div className="text-gray-800">
+We also facilitate importation and clearing of General goods and some selected equipment from selected countries into Nigeria, have them cleared and deliver these goods at the recipient's address here in Nigeria.
+</div>
                         <div className="text-gray-800">
-                            "Our proven ability to minimise time taken to clear goods for our customers puts us on the path to profitability growth, and we are confident it will keep us on that path going forward."
+                            Our proven ability to minimise time taken to clear goods for our customers puts us on the path to profitability growth, and we are confident it will keep us on that path going forward.
                         </div>
-
-                        <div className="flex flex-col sm:justify-center sm:items-center">
-                            <div className="text-2xl text-blue-800 font-bold">
-                                Title
-                            </div>
-
-                            <div className='text-gray-600 text-md'>
-                                Founder & CEO
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
