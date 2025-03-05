@@ -148,9 +148,9 @@ export const NavSocial: React.FC<Props> = ({ isMobile }) => {
 
             {
                 isMobile && (
-                    <div className='xl:hidden 2xl:hidden mt-5 flex flex-col  justify-center items-center'>
+                    <div className='xl:hidden 2xl:hidden mt-5 flex justify-center items-center'>
                         {
-                            navItemsData && navItemsData.map((navSocial, index) => (
+                            navSocialData && navSocialData.map((navSocial, index) => (
                                 <Link href={`${navSocial.url}`} key={index} passHref>
                                     <span
                                         className={
@@ -159,7 +159,7 @@ export const NavSocial: React.FC<Props> = ({ isMobile }) => {
                     `}
 
                                     >
-                                        {navSocial.name}
+                                        {navSocial.icon}
                                     </span>
                                 </Link>
                             ))
