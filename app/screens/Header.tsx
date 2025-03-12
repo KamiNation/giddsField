@@ -62,7 +62,7 @@ const Header = () => {
                     <div className="w-full h-[80px] flex items-center justify-between  p-3 " >
                         {/* Flex container for logo and navigation items */}
 
-                        <div>
+                        <div id="header-link">
                             <Link href={"/"} // Logo link
                                 className={"text-2xl font-bold sm:hidden md:hidden lg:hidden xl:hidden xl:text-base hover:text-red-900  text-blue-900 "}
                             >
@@ -77,19 +77,19 @@ const Header = () => {
                             </Link>
                         </div>
 
-                        <div>
+                        <div id="nav-item">
                             <NavItems
                                 isMobile={false} // Rendering for desktop
                             />
                             {/* <ThemeSwitcher /> Theme switcher button */}
                         </div>
 
-                        <div className="">
+                        <div id="navSocial-item">
                             <NavSocial isMobile={false} />
                         </div>
 
                         {/* Mobile menu icon, only visible on smaller screens */}
-                        <div className="xl:hidden 2xl:hidden">
+                        <div className="xl:hidden 2xl:hidden" id="menu-visible-in-smaller-screen">
                             <HiOutlineMenuAlt3
                                 size={25}
                                 className="cursor-pointer  text-primary"
@@ -103,7 +103,7 @@ const Header = () => {
                 {
                     openSidebar && (
                         <div className="fixed w-full   top-0  left-0 z-[99999] "
-
+id="mobile-sidebar-div"
                         >
                             <div
                                 onClick={handleClose} // Handle close on click outside
@@ -114,7 +114,8 @@ const Header = () => {
                             
                             sm:flex sm:justify-between sm:flex-col   top-0 right-0">
 
-                                <NavItems isMobile={true} /> {/* Mobile navigation items */}
+                                <NavItems isMobile={true} />
+                                 {/* Mobile navigation items */}
                                 <NavSocial isMobile={true} />
                                 <p className='flex justify-center items-center sm:p-2.5  text-black' >Copyright &#169; {currentYear} </p>
 
